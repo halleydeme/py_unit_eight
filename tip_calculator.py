@@ -3,7 +3,7 @@ root = tk.Tk()
 
 root.title("Tip Calculator")
 def calculate_tip():
-    total_with_tip = float(cost.get())*float(tip_percent)/100 = float(cost.get())
+    total_with_tip = float(cost.get()) * tip_percent.get() + float(cost.get())
     per_person=total_with_tip / people.get()
    #price*%tip+price/people
 #some variales that I wlll need
